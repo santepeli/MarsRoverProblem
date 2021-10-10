@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverProblemSolution.csproj": {}
+    "C:\\PROJ\\ROVER\\MarsRoverProblemSolution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverProblemSolution.csproj": {
+    "C:\\PROJ\\ROVER\\MarsRoverProblemSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverProblemSolution.csproj",
+        "projectUniqueName": "C:\\PROJ\\ROVER\\MarsRoverProblemSolution.csproj",
         "projectName": "MarsRoverProblemSolution",
-        "projectPath": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverProblemSolution.csproj",
+        "projectPath": "C:\\PROJ\\ROVER\\MarsRoverProblemSolution.csproj",
         "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\obj\\",
+        "outputPath": "C:\\PROJ\\ROVER\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
