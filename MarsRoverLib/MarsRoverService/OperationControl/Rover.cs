@@ -9,23 +9,19 @@ namespace MarsRoverService
     public sealed class Rover : IRoverOperaiton
     {
         public static char[] _commandArray;
-        static volatile Rover instance;
-        static object lockObject = new object();
 
-        private static readonly Lazy<Rover> singleInstance = new Lazy<Rover>(() => new Rover());
+        static readonly Lazy<Rover> singleInstance = new Lazy<Rover>(() => new Rover());
         public static Rover Instance { get { return singleInstance.Value; } }
 
         private object locker = new object();
-        public enum RunState
+        public enum ProcessState
         {
             Stopped,
-            Starting,
             Running,
-            Stopping,
         }
-        private RunState _running = RunState.Stopped;
+        private ProcessState _running = ProcessState.Stopped;
 
-        public RunState Running
+        public ProcessState Running
         {
             get
             {
@@ -45,7 +41,7 @@ namespace MarsRoverService
 
         private Rover()
         {
-            Running = RunState.Running;
+            Running = ProcessState.Running;
         }
 
         public IRoverOperaiton DefineCordinate(string cordinat)
@@ -67,7 +63,7 @@ namespace MarsRoverService
         {
             string target = "";
 
-            while (Running == RunState.Running)
+            while (Running == ProcessState.Running)
             {
                 lock (locker)
                 {
@@ -118,7 +114,7 @@ namespace MarsRoverService
                 this.Dispose();
             }
 
-            Running = RunState.Stopped;
+            Running = ProcessState.Stopped;
         }
 
     }

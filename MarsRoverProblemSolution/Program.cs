@@ -9,46 +9,29 @@ namespace MarsRoverProblemSolution
         static void Main(string[] args)
         {
 
-            Thread t1 = new Thread(Fon);
-            t1.Start();
-            Thread t2 = new Thread(Fon2);
-            t2.Start();
+            //Thread t1 = new Thread(fxThread1);
+            //t1.Start();
+            //Thread t2 = new Thread(fxThread2);
+            //t2.Start();
 
-            // Console.WriteLine("Mars Rover Problem Sollution");
-            // Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Set Start Position : ");
+            string startPosition = Console.ReadLine().Trim();
 
+            Console.Write("Rover Control Command  : ");
+            string command = Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
 
-            // Console.Write("Set Start Position : ");
-            // string startPosition = Console.ReadLine().Trim();
-
-            // Console.Write("Rover Control Command  : ");
-            // string command = Console.ReadLine();
-            // Console.ForegroundColor = ConsoleColor.DarkYellow;
-
-
-            // new Rover()
-            //.DefineCordinat("3 3 E")
-            //.SetCommand("MMRMMRMRRM")
-            //.Move();
-
-            // new Rover()
-            // .DefineCordinat("1 2 N")
-            // .SetCommand("LMLMLMLMM")
-            // .Move();
-
-
+            var result = Rover.Instance.Move(startPosition, command);
+            Console.WriteLine(result);
             Console.ReadLine();
         }
 
-        public static void Fon()
+        public static void fxThread1()
         {
-
-            var result = Rover.Instance.Move("3 3 E", "MMRMMRMRRM");
-
-            Console.WriteLine(result);
+            Console.WriteLine(Rover.Instance.Move("3 3 E", "MMRMMRMRRM"));
         }
 
-        public static void Fon2()
+        public static void fxThread2()
         {
             Console.WriteLine(Rover.Instance.Move("1 2 N", "LMLMLMLMM"));
         }

@@ -7,15 +7,15 @@ namespace UnitTestRoverControl
     public class UnitTest1
     {
         [Fact]
-        public void Test_Scenario_1()
+        public void TestScenarioRight()
         {
-            //Assert.Equal("1 3 N", Rover.Instance.DefineCordinat("1 2 N").SetCommand("LMLMLMLMM").Move());
+            Assert.Equal("1 3 N", Rover.Instance.Move("1 2 N", "LMLMLMLMM"));
         }
 
         [Fact]
-        public void Test_Scenario_2()
+        public void TestScenarioLeft()
         {
-            //Assert.Equal("5 1 E", Rover.Instance.DefineCordinat("3 3 E").SetCommand("MMRMMRMRRM").Move());
+            Assert.Equal("5 1 E", Rover.Instance. Move("3 3 E", "MMRMMRMRRM"));
         }
     }
 }
