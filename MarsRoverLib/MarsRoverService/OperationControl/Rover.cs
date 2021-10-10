@@ -12,6 +12,9 @@ namespace MarsRoverService
         static volatile Rover instance;
         static object lockObject = new object();
 
+        private static readonly Lazy<Rover> singleInstance = new Lazy<Rover>(() => new Rover());
+        public static Rover Instance { get { return singleInstance.Value; } }
+
         private object locker = new object();
         public enum RunState
         {
@@ -40,12 +43,9 @@ namespace MarsRoverService
             }
         }
 
-        public static Rover Instance { get { return new Rover(RunState.Running); } }
-
-        public Rover(RunState state)
+        private Rover()
         {
-            Running = state;
-
+            Running = RunState.Running;
         }
 
         public IRoverOperaiton DefineCordinate(string cordinat)
