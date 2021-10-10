@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverProblemSolution\\MarsRoverProblemSolution.csproj",
+      "projectUniqueName": "C:\\PROJ\\ROVER\\MarsRoverProblemSolution\\MarsRoverProblemSolution.csproj",
       "projectName": "MarsRoverProblemSolution",
-      "projectPath": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverProblemSolution\\MarsRoverProblemSolution.csproj",
+      "projectPath": "C:\\PROJ\\ROVER\\MarsRoverProblemSolution\\MarsRoverProblemSolution.csproj",
       "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverProblemSolution\\obj\\",
+      "outputPath": "C:\\PROJ\\ROVER\\MarsRoverProblemSolution\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -732,8 +732,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverLib\\MarsRoverService\\MarsRoverService.csproj": {
-              "projectPath": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverLib\\MarsRoverService\\MarsRoverService.csproj"
+            "C:\\PROJ\\ROVER\\MarsRoverLib\\MarsRoverService\\MarsRoverService.csproj": {
+              "projectPath": "C:\\PROJ\\ROVER\\MarsRoverLib\\MarsRoverService\\MarsRoverService.csproj"
             }
           }
         }

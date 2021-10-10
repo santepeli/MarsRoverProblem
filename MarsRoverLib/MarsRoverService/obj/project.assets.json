@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverLib\\MarsRoverService\\MarsRoverService.csproj",
+      "projectUniqueName": "C:\\PROJ\\ROVER\\MarsRoverLib\\MarsRoverService\\MarsRoverService.csproj",
       "projectName": "MarsRoverService",
-      "projectPath": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverLib\\MarsRoverService\\MarsRoverService.csproj",
+      "projectPath": "C:\\PROJ\\ROVER\\MarsRoverLib\\MarsRoverService\\MarsRoverService.csproj",
       "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m\\Desktop\\MarsRoverProblemSolution\\MarsRoverLib\\MarsRoverService\\obj\\",
+      "outputPath": "C:\\PROJ\\ROVER\\MarsRoverLib\\MarsRoverService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
