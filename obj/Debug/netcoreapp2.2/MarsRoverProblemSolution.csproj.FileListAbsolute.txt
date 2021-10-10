@@ -1,0 +1,4 @@
+C:\Users\m\Desktop\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.csprojAssemblyReference.cache
+C:\Users\m\Desktop\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.csproj.CoreCompileInputs.cache
+C:\Users\m\Desktop\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.AssemblyInfoInputs.cache
+C:\Users\m\Desktop\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.AssemblyInfo.cs

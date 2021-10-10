@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRoverService", "MarsRoverLib\MarsRoverService\MarsRoverService.csproj", "{B98531B0-5858-4B12-86D7-79A6814C01D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRoverProblemSolution", "MarsRoverProblemSolution\MarsRoverProblemSolution.csproj", "{280FB619-197C-49E2-B9D3-7F9C3CB2FB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestRoverControl", "UnitTestRoverControl\UnitTestRoverControl.csproj", "{34AB39E8-740F-44F8-AB8E-3800C4B438B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B98531B0-5858-4B12-86D7-79A6814C01D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98531B0-5858-4B12-86D7-79A6814C01D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98531B0-5858-4B12-86D7-79A6814C01D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98531B0-5858-4B12-86D7-79A6814C01D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280FB619-197C-49E2-B9D3-7F9C3CB2FB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280FB619-197C-49E2-B9D3-7F9C3CB2FB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280FB619-197C-49E2-B9D3-7F9C3CB2FB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280FB619-197C-49E2-B9D3-7F9C3CB2FB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AB39E8-740F-44F8-AB8E-3800C4B438B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AB39E8-740F-44F8-AB8E-3800C4B438B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AB39E8-740F-44F8-AB8E-3800C4B438B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AB39E8-740F-44F8-AB8E-3800C4B438B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADF73FA5-5EA3-4C16-933E-4E051038D06E}
+	EndGlobalSection
+EndGlobal

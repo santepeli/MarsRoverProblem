@@ -1,0 +1,14 @@
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\bin\Debug\netcoreapp2.2\MarsRoverProblemSolution.deps.json
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\bin\Debug\netcoreapp2.2\MarsRoverProblemSolution.runtimeconfig.json
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\bin\Debug\netcoreapp2.2\MarsRoverProblemSolution.runtimeconfig.dev.json
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\bin\Debug\netcoreapp2.2\MarsRoverProblemSolution.dll
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\bin\Debug\netcoreapp2.2\MarsRoverProblemSolution.pdb
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.csprojAssemblyReference.cache
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.csproj.CoreCompileInputs.cache
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.AssemblyInfoInputs.cache
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.AssemblyInfo.cs
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.dll
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.pdb
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\bin\Debug\netcoreapp2.2\MarsRoverService.dll
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\bin\Debug\netcoreapp2.2\MarsRoverService.pdb
+C:\Users\m\Desktop\MarsRoverProblemSolution\MarsRoverProblemSolution\obj\Debug\netcoreapp2.2\MarsRoverProblemSolution.csproj.CopyComplete
